@@ -46,11 +46,11 @@ class Vehicle:
                 - model (str): The model of the car.
                 - year (int): The manufacturing year of the car.
                 - fuel_type (str): The type of fuel the car uses.
-        * Implement the drive method to print "Car is moving" when called.
+        * Implement the drive method to print "Car is moving" when called. Note, this method will not return data.
                 - Prints:
                 - str: "Car is moving"
 
-        * Implement the refuel method to print "Car is refueling" when called.
+        * Implement the refuel method to print "Car is refueling" when called. Note, this method will not return data.
                 - Prints:
                 - str: "Car is refueling"
     """
