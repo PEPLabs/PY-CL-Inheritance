@@ -1,0 +1,37 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        [
+          {
+            "methodName": "test_vehicle_display_info",
+            "label": "Verify Vehicle.display_info returns proper formatted output",
+            "description": "Checks that Vehicle('Toyota', 'Camry', 2022).display_info() returns the string '2022 Toyota Camry', confirming correct string construction in the lab’s Vehicle class."
+          },
+          {
+            "methodName": "test_vehicle_start",
+            "label": "Verify Vehicle.start returns no value",
+            "description": "Ensures that calling start() on a Vehicle instance returns None as expected in the lab’s base-class behavior."
+          },
+          {
+            "methodName": "test_car_inheritance",
+            "label": "Verify Car inherits from Vehicle",
+            "description": "Confirms that the Car class is a subclass of Vehicle, validating proper inheritance structure for the lab’s OOP hierarchy."
+          },
+          {
+            "methodName": "test_car_drive",
+            "label": "Verify Car.drive returns no value",
+            "description": "Checks that Car('Toyota', 'Camry', 2022, 'Gasoline').drive() returns None, as defined in the lab’s Car class behavior."
+          },
+          {
+            "methodName": "test_car_refuel",
+            "label": "Verify Car.refuel returns no value",
+            "description": "Ensures that Car('Toyota', 'Camry', 2022, 'Gasoline').refuel() returns None, matching the lab’s expected implementation of the refuel method."
+          }
+        ]
+      ]
+    }
+  ]
+}
